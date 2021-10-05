@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 
 class FormScreen extends StatefulWidget {
@@ -90,6 +88,7 @@ class _FormScreenState extends State<FormScreen> {
                   children: [
                     Column(
                       mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         SizedBox(
                           height: 18,
@@ -110,6 +109,7 @@ class _FormScreenState extends State<FormScreen> {
                     ),
                     Column(
                       mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         SizedBox(
                           height: 18,
@@ -173,8 +173,10 @@ class _FormScreenState extends State<FormScreen> {
                     ),
                   ],
                 ),
-                SizedBox(height: 10,),
-                 Row(
+                SizedBox(
+                  height: 10,
+                ),
+                Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
@@ -187,8 +189,10 @@ class _FormScreenState extends State<FormScreen> {
                     ),
                   ],
                 ),
-                 SizedBox(height: 10,),
-                 Row(
+                SizedBox(
+                  height: 10,
+                ),
+                Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
@@ -201,8 +205,10 @@ class _FormScreenState extends State<FormScreen> {
                     ),
                   ],
                 ),
-                 SizedBox(height: 10,),
-                 Row(
+                SizedBox(
+                  height: 10,
+                ),
+                Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
@@ -215,63 +221,73 @@ class _FormScreenState extends State<FormScreen> {
                     ),
                   ],
                 ),
-                 SizedBox(height: 30,),
-               Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    'Arreares Days',
-                    style: TextStyle(fontSize: 12),
-                  ),
-                  Text(
-                    '5',
-                    style: TextStyle(fontSize: 18),
-                  ),
-                ],
-              ),
-               SizedBox(height: 10,),
-               Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    'Next Collection Date',
-                    style: TextStyle(fontSize: 12),
-                  ),
-                  Text(
-                    '22-AUG-2021',
-                    style: TextStyle(fontSize: 18),
-                  ),
-                ],
-              ),
-                SizedBox(height: 10,),
-               Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    'Lorn O--------- Date',
-                    style: TextStyle(fontSize: 12),
-                  ),
-                  Text(
-                    '22-AUG-2019',
-                    style: TextStyle(fontSize: 18),
-                  ),
-                ],
-              ),
-                SizedBox(height: 10,),
-               Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    'Loan ---------- Date',
-                    style: TextStyle(fontSize: 12),
-                  ),
-                  Text(
-                    'Last Day of the loan',
-                    style: TextStyle(fontSize: 18),
-                  ),
-                ],
-              ),
-              SizedBox(height: 60,)
+                SizedBox(
+                  height: 30,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      'Arreares Days',
+                      style: TextStyle(fontSize: 12),
+                    ),
+                    Text(
+                      '5',
+                      style: TextStyle(fontSize: 18),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      'Next Collection Date',
+                      style: TextStyle(fontSize: 12),
+                    ),
+                    Text(
+                      '22-AUG-2021',
+                      style: TextStyle(fontSize: 18),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      'Lorn O--------- Date',
+                      style: TextStyle(fontSize: 12),
+                    ),
+                    Text(
+                      '22-AUG-2019',
+                      style: TextStyle(fontSize: 18),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      'Loan ---------- Date',
+                      style: TextStyle(fontSize: 12),
+                    ),
+                    Text(
+                      'Last Day of the loan',
+                      style: TextStyle(fontSize: 18),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 60,
+                )
               ],
             ),
           ),
